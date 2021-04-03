@@ -1,5 +1,5 @@
 # html-canvas-grid
-A grid library that can be used to troubleshoot canvas work in HTML. The grid will cover the entire canvas in a designer / technical drawing style of a grid, with numbered major lines.
+A grid library that can be used to troubleshoot canvas work in HTML5. The grid will cover the entire canvas in a designer / technical drawing style of a grid, with numbered major lines.
 
 ## How to use the library ##
 In the JavaScript file you want to include it into add to the top of the file:
@@ -23,7 +23,7 @@ drawGrid(ctx);
 //example 3 - Only visible major lines:
 drawGrid(ctx, 100, 100);
 
-//example 4 - with ta thin line every 10px, and a thick line every 100px:
+//example 4 - with a thin line every 10px, and a thick line every 100px:
 drawGrid(ctx, 10, 100);
 
 ```
