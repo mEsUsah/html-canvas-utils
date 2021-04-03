@@ -1,5 +1,5 @@
 # html-canvas-grid
-A grid library that can be used to troubleshoot canvas work in HTML
+A grid library that can be used to troubleshoot canvas work in HTML. The grid will cover the entire canvas in a designer / technical drawing style of a grid, with numbered major lines.
 
 ## How to use the library ##
 In the JavaScript file you want to include it into add to the top of the file:
