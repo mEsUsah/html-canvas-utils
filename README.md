@@ -11,7 +11,21 @@ import drawGrid from "./lib/drawGrid.js";
 To create the grid use:
 
 ```
+// Syntax
 drawGrid(context ctx, [int minor], [int major], [string stroke], [string fill]);
+
+//example 1 - with default values:
+drawGrid(ctx, 10, 10, "#00FF00", "#009900");
+
+//example 2 - Quick and dirty:
+drawGrid(ctx);
+
+//example 3 - Only visible major lines:
+drawGrid(ctx, 100, 100);
+
+//example 4 - with ta thin line every 10px, and a thick line every 100px:
+drawGrid(ctx, 10, 100);
+
 ```
 
 Where: 
